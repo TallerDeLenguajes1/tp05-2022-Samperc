@@ -2,4 +2,4 @@
 Console.WriteLine("Ingrese un numero:");
 string texto= Console.ReadLine();
 Console.WriteLine("salida:" + texto);
-Console.WriteLine("Hola mundo ");
+Console.WriteLine("Hola mundo sdfsdfsdfsdf ");
