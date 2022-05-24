@@ -36,6 +36,21 @@ int seleccion, fin = 1;
     fin = int.Parse(Console.ReadLine());
 } 
  
+Console.WriteLine("Ingrese un valor ");
+double C=double.Parse(Console.ReadLine());
+Console.WriteLine(Math.Abs(C));
+Console.WriteLine(Math.Pow(C,2));
+Console.WriteLine(Math.Sqrt(C));
+Console.WriteLine(Math.Cos(C));
+Console.WriteLine(Math.Sin(C));
+Console.WriteLine(Math.Floor(C));
+
+ 
+Console.WriteLine("Ingrese dos valores ");
+ C=double.Parse(Console.ReadLine());
+double D=double.Parse(Console.ReadLine());
+Console.WriteLine(Math.Max(C,D));
+Console.WriteLine(Math.Min(C,D));
 
 
 double SUMAR(double A, double B)
